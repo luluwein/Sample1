@@ -1,0 +1,194 @@
+﻿body {
+}
+img{
+    cursor:pointer;
+    
+}
+.subjectList td {
+    cursor: pointer;
+    text-indent: 20px;
+    text-align: left;
+}
+.closePP {
+    float: right;
+    position: absolute;
+    top: 0px;
+    font-size: 34px;
+    /* line-height: 30px; */
+    right: 10px;
+    cursor:pointer;
+}
+.studentDetail {
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    top: 0;
+    border: gray 1px solid;
+    display: block;
+    width: 630px;
+    margin: 20px;
+    height: calc(100% - 70px);
+    left: calc(50% - 330px);
+    font-family: calibri;
+    position: absolute;
+    background: white;
+    min-height: 500px;
+}
+.grade, .date, .subject{
+    width:137px;
+}
+.selectedSubject {
+    background: #cde5e7;
+    border-left: 10px #93cccd solid;
+   
+    /*padding-left: 153px;
+    text-indent: -110px;*/
+}
+.subjectDetailTbl tr:first-of-type td {
+    width: 137px;
+    height: 33px;
+    background: #cde5e7;
+    text-align: center;
+}
+.subjectDetailTbl tr td{
+    height:33px;
+}
+.subjectDetailTbl tr td input{
+    height: 25px;
+    width:132px;
+}
+.subjectDetailTbl {
+    border-collapse: collapse;
+    border: 1px black solid;
+    /*margin: 0 50px;*/
+    /* width: 250px; */
+    text-align: center;
+    margin-top:2px;
+}
+.subjectDetailTbl td{
+    border:1px solid black;
+}
+subjectDetailTbl tr:nth-of-type(2) {
+    background: lightgray;
+}
+.studentsList {
+    background: white;
+    font-family: Calibri;
+    border-collapse: collapse;
+    border: 1px #409192 solid;
+    margin: auto;
+    width: 1000px;
+}
+.studentsList input {
+    width: 145px;
+    height:28px;
+}
+.studentsList tr td {
+	padding: 5px 10px;
+}
+.studentsList tr:nth-child(2n+1) {
+    background: #f9fcfd;
+}
+.studentsList tr:first-of-type {
+    background: #cde5e7;
+       
+    font-weight: bold;
+}
+.studentsList tr.viewMode input {
+    background: none;
+    border: none;
+    color: black;
+}
+.studentsList tr.viewMode input:focus {
+    outline: none;
+}
+.studentsList tr.viewMode .editBtns {
+    display:none;
+}
+.studentsList tr.viewMode img:first-of-type {
+    display: inline;
+}
+.studentsList tr.viewMode img:last-of-type {
+    display: none;
+}
+.studentsList tr img:last-of-type {
+    display: inline;
+}
+.studentsList tr img:first-of-type {
+    display: none;
+}
+.studentsList tr.newStudent  img {
+    display: inline;
+}
+.studentsList tr.viewMode td {
+    background: none;
+}
+.studentsList tr td {
+    background: #cde5e7 ;
+height:35px;
+}
+.studentsList tr:first-of-type td {
+    background: #93cccd;
+}
+.studentsList tr.editMode input {
+    cursor: pointer;
+}
+td img{
+    height:15px;
+}
+.subjectDetailTbl tr.viewMode img:first-of-type {
+    display: inline;
+}
+.subjectDetailTbl tr.viewMode img:last-of-type {
+    display: none;
+}
+.subjectDetailTbl tr img:last-of-type {
+    display: inline;
+}
+.subjectDetailTbl tr img:first-of-type {
+    display: none;
+    margin:auto;
+}
+.subjectDetailTbl tr.newTestRow img {
+    display: inline;
+}
+.detailBtn {
+    margin:auto;
+    border-radius: 5px;
+    background: #93cccd;
+    width: 69px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    cursor: pointer;
+}
+.headerBkgrd {
+    background-image: url(Images/school.jpg);
+    height: 173px;
+    width: 1000px;
+    background-position: center;
+    background-color: #226463;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    margin: auto;
+}
+.headerTxt {
+    color: #226463;
+    font-family: calibri;
+    font-size: 53px;
+    text-indent: 6%;
+    text-shadow: 2px 2px 5px white;
+    padding-top: 55px;
+}
+.headerSub {
+    width: 1000px;
+    margin: auto;
+    background: #409192;
+    color: white;
+    padding: 5px 0;
+    font-family: calibri;
+    text-indent: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*#98c1ce  #e4eff3*/
